@@ -1,0 +1,101 @@
+[education]
+title = "Formazione"
+
+[[education.section]]
+institution = "Università di Amsterdam"
+location = "Amsterdam, NL"
+start = "Set 2025"
+end = "Attuale"
+degree = "Laurea magistrale in Computer Science"
+content = [
+    "Attualmente impegnato in studi avanzati su sistemi informatici, reti e ingegneria del software. Il programma è incentrato sulla progettazione, l'analisi e l'implementazione di sistemi computazionali complessi e distribuiti, con particolare attenzione a prestazioni, sicurezza, sostenibilità e scalabilità.",
+]
+
+[[education.section]]
+institution = "Università di Trento"
+location = "Trento, IT"
+start = "Set 2022"
+end = "Lug 2025"
+degree = "Laurea triennale in Informatica"
+content = [
+    "Media 28.66/30, laureato con 110 e lode.",
+    "Corsi rilevanti: Strutture Dati e Algoritmi, Advanced Programming, Sistemi Operativi, Programmazione I e II, Programmazione Funzionale, Ingegneria del Software, Analisi I e II, Probabilità e Statistica.",
+]
+
+[experience]
+title = "Esperienza"
+
+[[experience.section]]
+title = "Ottimizzazione dei Processi e Automazione"
+location = "Verona, IT"
+company = "ONO Lean Logistics"
+start = "Set 2021"
+end = "Attuale"
+content = [
+    "Progettazione e implementazione di algoritmi di ottimizzazione per magazzini automatizzati, con significativo miglioramento dell'efficienza operativa.",
+    "Riduzione dei tempi di prelievo dei prodotti fino al 65% tramite riorganizzazione strategica basata sui pattern di utilizzo.",
+    "Applicazione di tecniche di clustering per raggruppare i prodotti secondo metriche definite dall'utente, migliorando accessibilità e flussi di lavoro.",
+    "Sviluppo di un simulatore virtuale di magazzino per modellare e analizzare le prestazioni del sistema in diversi scenari.",
+    "Implementazione di un algoritmo di 3D bin packing, raggiungendo oltre il 90% di utilizzo medio dello spazio e minimizzando lo spreco di volume nei contenitori.",
+]
+
+[[experience.section]]
+title = "Sviluppo di App Mobile per lo Sport"
+location = "Trento, IT"
+company = "YMedia"
+start = "Apr 2023"
+end = "Gen 2024"
+content = [
+    "Sviluppo di un'app mobile fantacalcio full-stack per piattaforme Android e iOS.",
+    "Progettazione e implementazione di un server API RESTful utilizzando Rust e PostgreSQL, distribuito tramite Docker su AWS EC2.",
+    "Realizzazione di un'app mobile cross-platform in Flutter, con statistiche in tempo reale, notifiche e classifiche delle squadre, pubblicata su Google Play e App Store.",
+    "Sviluppo di una dashboard amministrativa per la gestione efficiente di eventi, partite e mailing list.",
+]
+
+[projects]
+title = "Progetti"
+
+[[projects.section]]
+name = "App Gestionale Ristorante"
+url = "github.com/USushi-G18"
+content = [
+    "Sviluppo di un'API RESTful in Go per la gestione delle richieste dei client e la persistenza dei dati in un database PostgreSQL.",
+    "Realizzazione di un frontend basato su Svelte, che consente agli amministratori di gestire i menu e ai dipendenti di visualizzare in tempo reale gli ordini dei clienti.",
+    "Deployment dell'applicazione su DigitalOcean tramite Docker, con TLS per garantire comunicazioni sicure.",
+]
+
+[extra]
+title = "Attività Extracurriculari"
+
+[[extra.section]]
+activity = "Competizioni Capture The Flag"
+start = "Feb 2022"
+end = "Attuale"
+content = [
+    "Partecipazione a competizioni CTF, tra cui la CyberChallenge, affrontando problemi di sicurezza informatica reali.",
+    "Sviluppo di competenze in crittografia, sicurezza web, sicurezza di rete e sicurezza del software attraverso attività e sfide pratiche.",
+    "Ulteriore consolidamento di queste competenze grazie a corsi avanzati di Software Security e Cryptography durante il percorso di laurea magistrale.",
+]
+
+[skills]
+title = "Skills"
+
+[[skills.section]]
+name = "Linguaggi"
+skills = "Go, Rust, C/C++, Python, JavaScript, Java, C#, Bash, Dart."
+
+[[skills.section]]
+name = "Backend"
+skills = "Redis, PostgreSQL, MySQL, SQLite, MongoDB, Express, Axum."
+
+[[skills.section]]
+name = "Frontend"
+skills = "React, Svelte, Vue, SASS, Tailwind, Flutter, HTML/CSS."
+
+[[skills.section]]
+name = "DevOps"
+skills = "Nginx, Docker, Kubernetes, AWS, Terraform, Kafka."
+
+[[skills.section]]
+name = "Lingue"
+skills = "Inglese - C1 (IELTS 7.0)."

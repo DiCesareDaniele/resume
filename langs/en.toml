@@ -1,0 +1,101 @@
+[education]
+title = "Education"
+
+[[education.section]]
+institution = "University of Amsterdam"
+location = "Amsterdam, NL"
+start = "Sept 2025"
+end = "Present"
+degree = "Master of Science in Computer Science"
+content = [
+    "Currently pursuing advanced studies in computer systems, networks, and software engineering. The program focuses on the design, analysis, and implementation of complex and distributed computing systems, emphasizing performance, security, sustainability, and scalability.",
+]
+
+[[education.section]]
+institution = "University of Trento"
+location = "Trento, IT"
+start = "Sept 2022"
+end = "Jul 2025"
+degree = "Bachelor of Science in Computer Science"
+content = [
+    "Cumulative GPA 3.82 (28.66/30), graduated with 110 cum laude.",
+    "Relevant Courses: Data Structures and Algorithms, Advanced Programming, Operating Systems, Programming I and II, Functional Programming, Software Engineering, Calculus I and II, Probability and Statistics.",
+]
+
+[experience]
+title = "Work Experience"
+
+[[experience.section]]
+title = "Automation and Operations Optimization"
+location = "Verona, IT"
+company = "ONO Lean Logistics"
+start = "Sept 2021"
+end = "Present"
+content = [
+    "Designed and implemented optimization algorithms for automated warehouses, significantly improving operational efficiency.",
+    "Reduced product withdrawal times by up to 65% through strategic reordering based on usage patterns.",
+    "Applied clustering techniques to group products according to user-defined metrics, enhancing accessibility and workflow.",
+    "Developed a virtual warehouse simulator to model and analyze system performance under various scenarios.",
+    "Implemented a 3D bin packing algorithm, achieving over 90% average space utilization and minimizing wasted container space.",
+]
+
+[[experience.section]]
+title = "Sports Mobile App Development"
+location = "Trento, IT"
+company = "YMedia"
+start = "Apr 2023"
+end = "Jan 2024"
+content = [
+    "Developed a full-stack fantasy football mobile app for Android and iOS platforms.",
+    "Designed and implemented a RESTful API server using Rust and PostgreSQL, deployed via Docker on AWS EC2.",
+    "Built a cross-platform Flutter mobile app, featuring live statistics, notifications, and team rankings, published on Google Play and the App Store.",
+    "Built an admin dashboard to manage events, matches, and mailing lists efficiently.",
+]
+
+[projects]
+title = "Projects"
+
+[[projects.section]]
+name = "Restaurant Management App"
+url = "github.com/USushi-G18"
+content = [
+    "Developed a RESTful API in Go to handle client requests and manage data persistence in a PostgreSQL database.",
+    "Built a Svelte-based frontend enabling administrators to manage menus and employees to view real-time customer orders.",
+    "Deployed the application on DigitalOcean using Docker, with TLS encryption for secure communication.",
+]
+
+[extra]
+title = "Extracurricular Activities"
+
+[[extra.section]]
+activity = "Capture The Flag Competitions"
+start = "Feb 2022"
+end = "Present"
+content = [
+    "Competed in CTF challenges, including the CyberChallenge, tackling real-world security problems.",
+    "Developed practical expertise in cryptography, web security, network security, and software security through hands-on problem-solving.",
+    "Further enhanced these skills through advanced coursework in Software Security and Cryptography during my Master's program.",
+]
+
+[skills]
+title = "Skills"
+
+[[skills.section]]
+name = "Programming Languages"
+skills = "Go, Rust, C/C++, Python, JavaScript, Java, C#, Bash, Dart."
+
+[[skills.section]]
+name = "Backend"
+skills = "Redis, PostgreSQL, MySQL, SQLite, MongoDB, Express, Axum."
+
+[[skills.section]]
+name = "Frontend"
+skills = "React, Svelte, Vue, SASS, Tailwind, Flutter, HTML/CSS."
+
+[[skills.section]]
+name = "DevOps"
+skills = "Nginx, Docker, Kubernetes, AWS, Terraform, Kafka."
+
+[[skills.section]]
+name = "Languages"
+skills = "Italian - Native, English - C1 (IELTS 7.0)."
