@@ -1,4 +1,4 @@
 # RESUME
 
-- **to compile live**: `typst watch main.typ`\
-- **to build per language**: `./build.sh`
+- **To compile live**: `typst watch main.typ`\
+- **To build per language**: `./build.sh`
